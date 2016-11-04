@@ -1,7 +1,7 @@
 require "./lib/stock_picker.rb"
 require "test/unit"
 
-class TestNAME < Test::Unit::TestCase
+class TestStockPicker < Test::Unit::TestCase
 
   def test_one_price
     assert_equal([0, 1], stock_picker([1, 2]))
