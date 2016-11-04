@@ -11,5 +11,7 @@ Run the `find` and `grep` commands below?
 `mv lib/NAME lib/your_proj`
 `mv lib/NAME.rb lib/your_proj.rb`
 
+Change 2 occurrences of "NAME" in `tests/test_your_proj.rb`
+
 `find . -name "*NAME*" -print`
 `grep -r "NAME" *`
