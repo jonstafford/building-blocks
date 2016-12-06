@@ -1,3 +1,3 @@
-require './caesar_cipher'
+require './sinatra_caesar_cipher'
 
 run Sinatra::Application
