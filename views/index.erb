@@ -1,0 +1,26 @@
+<html>
+  <head>
+		<style>
+		      body {
+		        background: #448899;
+		      }
+		    </style>
+		
+  </head>
+  <body>
+		<h1>Welcome to Caesar Cipher!</h1>
+		<p>
+			Enter a shift factor between 1 and 25 and a phrase to encode.
+		</p>
+    <form>
+			Shift factor:<br>
+      <input type='text' name='shift' /></br>
+			Phrase:<br>
+      <input type='text' name='phrase' /><br>
+      <input type='submit' value='Encode' />
+    </form>
+	<h4>
+	  <%= encoded %>
+	</h4>
+  </body>
+</html>
